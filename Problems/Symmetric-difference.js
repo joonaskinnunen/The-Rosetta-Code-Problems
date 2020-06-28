@@ -15,7 +15,6 @@ function symmetricDifference(A, B) {
         }
     })
     arr.sort()
-    console.log(arr)
     return arr
 }
 symmetricDifference(["John", "Bob", "Mary", "Serena"], ["Jim", "Mary", "John", "Bob"])
