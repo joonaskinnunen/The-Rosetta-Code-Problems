@@ -30,10 +30,10 @@ function quibble(words) {
         str += words[i]
         if (i === words.length - 2) {
             str += " and "
-        } else if (i < words.length - 2) {
+        }
+        if (i < words.length - 2) {
             str += ","
         }
-        console.log(str)
     }
     str += "}"
     return str
