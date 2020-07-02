@@ -10,5 +10,5 @@ Prototype copying */
 
 function deepcopy(obj) {
     const objCopy = { ...obj }
-    return objCopy;
+    return objCopy
 }
