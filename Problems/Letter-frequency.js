@@ -9,12 +9,12 @@ The character should be a string with a length of 1, and frequency is a number d
 
 For example, given the string "ab", your function should return [['a', 1], ['b', 1]]. */
 
-function letterFrequency(txt) {
+const letterFrequency = (txt) => {
     let counts = {}
-    let str = txt.split('')
-    str.forEach(function (x) { counts[x] = (counts[x] || 0) + 1 })
-    let wordsArr = Object.entries(counts)
-    wordsArr.sort()
-    return wordsArr
+    let charArr = txt.split('')
+    charArr.forEach(x => { counts[x] = (counts[x] || 0) + 1 })
+    let charCountsArr = Object.entries(counts)
+    charCountsArr.sort()
+    return charCountsArr
 }
 letterFrequency("Not all that Mrs. Bennet, however")
