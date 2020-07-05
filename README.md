@@ -1,6 +1,6 @@
 # The-Rosetta-Code-Problems
 
-My solutions to the Rosetta Code Problems.
+My JavaScript solutions to the Rosetta Code Problems.
 
 The Rosetta Code is a list of programming challenges which will help you build your programming skills.
 
