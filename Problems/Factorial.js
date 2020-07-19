@@ -10,7 +10,7 @@ For example:
 Note: 0! = 1 */
 
 
-function factorial(n) {
+const factorial = (n) => {
     // Good luck!
     let sum = 1
     for(let i = 1; i < n; i++) {

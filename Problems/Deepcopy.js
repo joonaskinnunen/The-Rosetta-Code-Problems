@@ -8,7 +8,7 @@ Date objects or object with properties that are Date objects
 RegEx or object with properties that are RegEx objects
 Prototype copying */
 
-function deepcopy(obj) {
+const deepcopy = (obj) => {
     const objCopy = { ...obj }
     return objCopy
 }

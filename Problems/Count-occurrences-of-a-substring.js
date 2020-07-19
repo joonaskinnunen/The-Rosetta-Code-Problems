@@ -11,7 +11,7 @@ The matching should yield the highest number of non-overlapping matches.
 In general, this essentially means matching from left-to-right or right-to-left. */
 
 
-function countSubstring(str, subStr) {
+const countSubstring = (str, subStr) => {
     return str.split(subStr).length - 1
 }
 
