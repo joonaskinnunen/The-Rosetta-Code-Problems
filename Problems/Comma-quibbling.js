@@ -15,7 +15,7 @@ Test your function with the following series of inputs showing your output here 
 Note: Assume words are non-empty strings of uppercase characters for this task. */
 
 
-function quibble(words) {
+const quibble = (words) => {
     let str = "{"
     if (words.length === 0) {
         return "{}"

@@ -13,7 +13,7 @@ Example: 6 has proper divisors of 1, 2, and 3. 1 + 2 + 3 = 6, so 6 is classed as
 Implement a function that calculates how many of the integers from 1 to 20,000 (inclusive) are in each of the three classes.
 Output the result as an array in the following format [deficient, perfect, abundant] */
 
-function getDPA(num) {
+const getDPA = (num) => {
     const arr = [0, 0, 0]
     for (let i = 1; i <= num; i++) {
         let sum = 0

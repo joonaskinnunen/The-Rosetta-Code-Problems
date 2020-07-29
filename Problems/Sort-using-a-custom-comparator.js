@@ -1,6 +1,6 @@
 /* Write a function to sort an array (or list) of strings in order of descending length, and in ascending lexicographic order for strings of equal length. */
 
-function lengthSorter(arr) {
+const lengthSorter = (arr) => {
     // Good luck!
     let sortedArr = [...arr].sort((a, b) => {
       if(a.length === b.length) {

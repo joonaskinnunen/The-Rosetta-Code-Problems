@@ -10,7 +10,7 @@ the output should be:
 
 Write a function that takes an array of arrays as a parameter and returns an array of strings satisfying the given description. */
 
-function loopSimult(A) {
+const loopSimult = (A) => {
     let newArr = []
     for (let i = 0; i < A.length; i++) {
         for (let j = 0; j < A[i].length; j++) {

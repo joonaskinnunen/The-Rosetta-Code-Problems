@@ -7,7 +7,7 @@ If the arrays match (i.e. the original array was already sorted), the function r
 If the arrays do not match (i.e. the original array was not sorted), the function returns false. */
 
 
-function jortsort(array) {
+const jortsort = (array) => {
     let sortedArray = [...array].sort((a, b) => {
       return a - b
     })

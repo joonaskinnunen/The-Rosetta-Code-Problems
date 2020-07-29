@@ -2,7 +2,7 @@
 
 Write a function that takes an array of strings and returns the strings that have a length equal to the longest length. */
 
-function longestString(strings) {
+const longestString = (strings) => {
     const longestStrings = []
     let longest = 0
     for(let i = 0; i < strings.length; i++) {

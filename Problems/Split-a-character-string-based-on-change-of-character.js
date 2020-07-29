@@ -5,7 +5,7 @@ The same applies to commas. For instance, the string:
 should be split as:
 ["g", "HHH", "5", "YY", "++", "///", "\" ] */
 
-function split(str) {
+const split = (str) => {
     const arr = []
     let arrStr = str.charAt(0)
     for (let i = 1; i <= str.length; i++) {

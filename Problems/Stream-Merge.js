@@ -1,6 +1,6 @@
 // Write a function that takes multiple sorted arrays of items, and returns one array of sorted items.
 
-function mergeLists(lists) {
+const mergeLists = (lists) => {
     let arr = []
     lists.forEach(x => {
         arr = arr.concat(x)

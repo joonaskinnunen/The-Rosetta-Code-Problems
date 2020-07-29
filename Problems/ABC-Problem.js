@@ -28,7 +28,7 @@ Some rules to keep in mind:
 Once a letter on a block is used, that block cannot be used again.
 The function should be case-insensitive. */
 
-function canMakeWord(word) {
+const canMakeWord = (word) => {
     let wordBlocks = [["B", "O"], ["X", "K"], ["D", "Q"], ["C", "P"], ["N", "A"], ["G", "T"], ["R", "E"], ["T", "G"], ["Q", "D"], ["F", "S"], ["J", "W"], ["H", "U"], ["V", "I"], ["A", "N"], ["O", "B"], ["E", "R"], ["F", "S"], ["L", "Y"], ["P", "C"], ["Z", "M"]]
     let letterFound = false
     for(let i = 0; i < word.length; i++) {

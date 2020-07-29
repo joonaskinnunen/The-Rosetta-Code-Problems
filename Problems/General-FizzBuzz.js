@@ -9,7 +9,7 @@ This indicates that Fizz should be printed if the number is a multiple of 3 and 
 
 The second parameter is the number for which the function should return a string as stated above. */
 
-function genFizzBuzz(rules, num) {
+const genFizzBuzz = (rules, num) => {
     let wordToReturn = ""
     for(let i = 0; i < rules.length; i++) {
         if(num % rules[i][0] === 0) {

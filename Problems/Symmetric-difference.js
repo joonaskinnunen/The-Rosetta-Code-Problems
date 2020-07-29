@@ -2,7 +2,7 @@
 
 Write a function that takes two arrays as parameters and returns the symmetric difference. Sort the resultant array before returning it. */
 
-function symmetricDifference(A, B) {
+const symmetricDifference = (A, B) => {
     let arr = []
     A.forEach(x => {
         if (B.indexOf(x) < 0) {

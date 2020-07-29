@@ -9,7 +9,7 @@ Implement a function to determine the state of the doors after the last pass.
 Return the final result in an array, with only the door number included in the array if it is open.
 */
 
-function getFinalOpenedDoors(numDoors) {
+const getFinalOpenedDoors = (numDoors) => {
   // Good luck!
   let doorsArr = Array(numDoors).fill(false)
   let counter = 1
